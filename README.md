@@ -31,7 +31,8 @@ through an interactive Streamlit web application for evaluation.
 
 ### Comparison Table
 <img width="771" height="175" alt="image" src="https://github.com/user-attachments/assets/cec9abb0-60ee-4df6-9d23-949a4ad09bfe" />
-                                                                                                                                
+                                                                                                                            
+																															 ### Observation Table
 	
 <img width="1453" height="378" alt="image" src="https://github.com/user-attachments/assets/cf74e490-bfb9-4eb5-ad28-a99b64d8743d" />
 
