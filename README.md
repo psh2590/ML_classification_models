@@ -45,6 +45,21 @@ through an interactive Streamlit web application for evaluation.
 ---------------------------------------------------------------------------------------
 
 ### Observations
+ ML Model Name            	 Observation about model performance                                                                                          
+ Logistic Regression      	 Best overall performer here. The classes are close to linearly separable after standard scaling, so a simple linear decision 
+	 boundary generalizes very well - highest accuracy, F1, and MCC of all five models.                                           
+ Decision Tree            	 Weakest of the five. A single tree (even depth-limited to 5) overfits the training split and produces a comparatively low AUC
+	 , reflecting less stable probability estimates than the other models.                                                        
+ kNN                      	 Strong performer, achieving perfect recall (no malignant case predicted as benign in this split) after feature scaling - but 
+	 recall alone can be misleading; precision is slightly lower than Logistic Regression's.                                      
+ Naive Bayes              	 Decent AUC despite its unrealistic feature-independence assumption (many of the 30 features are correlated, e.g. radius and  
+	 area), which caps its accuracy/F1 below the top models.                                                                      
+ Random Forest (Ensemble) 	 Very close to Logistic Regression on AUC and clearly better than a single Decision Tree on every metric - bagging trees      
+	 the overfitting seen in the standalone Decision Tree.                                                                        
+ **Overall Winner for your	 **Logistic Regression** - highest Accuracy, Precision, Recall, F1 and MCC among the five models on this test split.                                                                                                                                  
+	
+<img width="1453" height="378" alt="image" src="https://github.com/user-attachments/assets/cf74e490-bfb9-4eb5-ad28-a99b64d8743d" />
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 | ML Model Name            | Observation about model performance                                                                         |
