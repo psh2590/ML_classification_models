@@ -52,7 +52,7 @@ st.caption(
 st.markdown("### 1. Upload Test Data (CSV)")
 uploaded_file = st.file_uploader(
     "Upload a CSV containing the 30 numeric features plus a 'diagnosis' column "
-    "(0 = malignant, 1 = benign). You can use the provided test_data.csv.",
+    "(0 = malignant, 1 = benign). You can use the provided test_data.csv in git hub repo.",
     type=["csv"],
 )
 
