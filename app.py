@@ -45,7 +45,7 @@ scaler, feature_cols, models = load_artifacts()
 
 st.title("🩺 Breast Cancer Wisconsin — Classification Demo")
 st.caption(
-    "Assignment 2 | Machine Learning | BITS WILP M.Tech (AIML/DSE) | "
+    "Assignment 2 | Machine Learning | BITS WILP M.Tech (AIML/DSE) | Piyush Pandey | 2025AC05361"
     "Dataset: Breast Cancer Wisconsin (Diagnostic), UCI ML Repository"
 )
 
